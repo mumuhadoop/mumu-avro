@@ -1,0 +1,21 @@
+{
+    "type": "record",
+    "name": "SinaFinanceNewsPair",
+    "doc": "sina finance news pair",
+    "namespace":"com.lovecws.mumu.avro.entity",
+    "fields": [
+        {"name": "htitle", "type": ["null","string"]},
+        {"name": "keywords", "type": ["null","string"]},
+        {"name": "description", "type":["null","string"]},
+        {"name": "url", "type": ["null","string"]},
+        {"name": "sumary", "type": ["null","string"]},
+        {"name": "content", "type": ["null","string"]},
+        {"name": "logo", "type": ["null","string"]},
+        {"name": "title", "type": ["null","string"]},
+        {"name": "pubDate", "type": ["null","string"]},
+        {"name": "mediaName", "type": ["null","string"]},
+        {"name": "mediaUrl", "type": ["null","string"]},
+        {"name": "category", "type": ["null","string"]},
+        {"name": "type", "type": ["null","string"]}
+    ]
+}
